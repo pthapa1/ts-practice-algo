@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "algorithms": "npx ts-node runAlgo.ts",
+    "test": "pnpm run algorithms"
   },
   "keywords": [],
   "author": "",
