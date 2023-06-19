@@ -20,7 +20,7 @@ class LinkedList<T> {
 
     /**
      * @description: If you are using Types instead of class for EachNode, create newNode using the format below.
-     * @constant const newNode: EachNode<T> = {data: newValue};
+     * @constant: const newNode: EachNode<T> = {data: newValue};
      */
 
     let newSpace = this.head;
