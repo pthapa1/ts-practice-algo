@@ -16,7 +16,7 @@ function partition(arr: number[], low: number, high: number) {
 }
 function quickSort(arr: number[], low: number, high: number) {
   if (low < high) {
-    // 👆 means if there is only one element left. OR, if it is not the same element in the array
+    // 👆 means if there is only one element left. OR, it is not the same element in the array
     const indexPointer = partition(arr, low, high);
     quickSort(arr, 0, indexPointer - 1);
     quickSort(arr, indexPointer + 1, high);
@@ -25,3 +25,4 @@ function quickSort(arr: number[], low: number, high: number) {
 
 let numArray = [8, 7, 0, 2, 13, 78];
 quickSort(numArray, 0, numArray.length - 1);
+console.log(numArray);
